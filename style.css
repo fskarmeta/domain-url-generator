@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Code+Pro:wght@600&display=swap');
+
+    body * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: unset;
+        font-size: unset;
+        color: unset;
+        text-decoration: unset;
+        background-color: transparent;
+        /* font-family: 'Source Code Pro', monospace; */
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .container-fluid {
+        background-color: black;
+        min-height: 100vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    } 
+
+    p {
+        font-size: 2rem;
+        padding: 4rem 0;
+        color: white;
+    }
+
+    button {
+        width: 20rem;
+    }
+    .cold-md-4,
+    .card {
+        background-color: transparent;
+        border: 0;  
+        box-shadow: 0;
+        border-style: none;
+        color: white;
+    
+    }
+
+    #btn {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .a {
+        color: red;
+    }
+
+    .p {
+        color: yellow;
+    }
+
+    .n {
+        color: green;
+    }
+
+    .d {
+        color: purple;
+    }
